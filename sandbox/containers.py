@@ -153,7 +153,7 @@ class Sandbox:
                 tar.add(os.path.join(self.envpath, name), arcname=name)
     
     def reset(self):
-        """Reset a given container by killing it and overwriting it's instance with
+        """Reset a given container by killing it and overwriting its instance with
         a new one."""
         global CONTAINERS
         
